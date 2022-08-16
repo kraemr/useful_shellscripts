@@ -1,11 +1,11 @@
 #!/bin/bash
 
 
-images=/home/robin/Pictures
-videos=/home/robin/Videos
-documents=/home/robin/Documents
-iso_emu=/home/robin/iso_emu
-code=/home/robin/codeheap
+images=Picturesfolder
+videos=videosfolder
+documents=documentsfolder
+iso_emu=isofolder
+code=codefolder
 
 mv *.jpg $images
 mv *.jpeg $images
