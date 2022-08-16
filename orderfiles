@@ -1,0 +1,47 @@
+#!/bin/bash
+
+
+images=/home/robin/Pictures
+videos=/home/robin/Videos
+documents=/home/robin/Documents
+iso_emu=/home/robin/iso_emu
+code=/home/robin/codeheap
+
+mv *.jpg $images
+mv *.jpeg $images
+mv *.JPEG $images
+mv *.JPG $images
+mv *.png $images
+mv *.gif $images
+mv *.jfif $images
+
+mv *.webm $videos
+mv *.mp4 $videos
+mv *.mov $videos
+
+mv *.docx $documents
+mv *.txt $documents
+mv *.pdf $documents
+
+mv *.PDF $documents
+mv *.odt $documents
+mv *.log $documents
+
+mv *.iso $iso_emu
+mv *.nds $iso_emu
+mv *.gba $iso_emu
+
+mv *.json $code
+mv *.c $code
+mv *.cpp $code
+mv *.cc $code
+mv *.h $code
+mv *.hpp $code
+mv *.java $code
+mv *.jar $code
+mv *.asm $code
+mv *.wasm $code
+mv *.html $code
+mv *.js $code
+mv *.pl $code
+mv *.bin $code

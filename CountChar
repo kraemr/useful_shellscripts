@@ -1,0 +1,7 @@
+
+echo "input the String to count characters"
+read x
+echo "Which char to Count?"
+read str
+y="${x//[^$str]}"
+echo "$str appears ${#y} times"
